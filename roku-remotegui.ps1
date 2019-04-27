@@ -326,7 +326,7 @@ $ChangeFavButton.ForeColor = $textcolor
 $ChangeFavButton.Text = 'Set'
 $ChangeFavButton.Add_MouseHover($ShowHelp)
 
-$FavButton1 = New-Object System.Windows.Forms.Button
+$Global:FavButton1 = New-Object System.Windows.Forms.Button
 $FavButton1.Name = 'FavButton1' 
 $FavButton1.width = 80
 $FavButton1.height = 50
@@ -335,7 +335,7 @@ $FavButton1.font = 'Microsoft  Sans Serif,10'
 $FavButton1.backcolor = 'Black'
 $FavButton1.Add_MouseHover($ShowHelp)
 
-$FavButton2 = New-Object System.Windows.Forms.Button
+$Global:FavButton2 = New-Object System.Windows.Forms.Button
 $FavButton2.Name = 'FavButton2' 
 $FavButton2.width = 80
 $FavButton2.height = 50
@@ -344,7 +344,7 @@ $FavButton2.font = 'Microsoft Sans Serif,10'
 $FavButton2.backcolor = 'Black'
 $FavButton2.Add_MouseHover($ShowHelp)
 
-$FavButton3 = New-Object System.Windows.Forms.Button
+$Global:FavButton3 = New-Object System.Windows.Forms.Button
 $FavButton3.Name = 'FavButton3' 
 $FavButton3.width = 80
 $FavButton3.height = 50
@@ -353,7 +353,7 @@ $FavButton3.font = 'Microsoft Sans Serif,10'
 $FavButton3.backcolor = 'Black'
 $FavButton3.Add_MouseHover($ShowHelp)
 
-$FavButton4 = New-Object System.Windows.Forms.Button
+$Global:FavButton4 = New-Object System.Windows.Forms.Button
 $FavButton4.Name = 'FavButton4' 
 $FavButton4.width = 80
 $FavButton4.height = 50
